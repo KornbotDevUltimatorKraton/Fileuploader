@@ -1,0 +1,1383 @@
+{
+  "eagle": {
+    "-version": "9.6.2",
+    "drawing": {
+      "settings": {
+        "setting": [
+          { "-alwaysvectorfont": "no" },
+          { "-verticaltext": "up" }
+        ]
+      },
+      "grid": {
+        "-distance": "0.1",
+        "-unitdist": "inch",
+        "-unit": "inch",
+        "-style": "lines",
+        "-multiple": "1",
+        "-display": "no",
+        "-altdistance": "0.01",
+        "-altunitdist": "inch",
+        "-altunit": "inch"
+      },
+      "layers": {
+        "layer": [
+          {
+            "-number": "1",
+            "-name": "Top",
+            "-color": "4",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "16",
+            "-name": "Bottom",
+            "-color": "1",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "17",
+            "-name": "Pads",
+            "-color": "2",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "18",
+            "-name": "Vias",
+            "-color": "2",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "19",
+            "-name": "Unrouted",
+            "-color": "6",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "20",
+            "-name": "Dimension",
+            "-color": "24",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "21",
+            "-name": "tPlace",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "22",
+            "-name": "bPlace",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "23",
+            "-name": "tOrigins",
+            "-color": "15",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "24",
+            "-name": "bOrigins",
+            "-color": "15",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "25",
+            "-name": "tNames",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "26",
+            "-name": "bNames",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "27",
+            "-name": "tValues",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "28",
+            "-name": "bValues",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "29",
+            "-name": "tStop",
+            "-color": "7",
+            "-fill": "3",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "30",
+            "-name": "bStop",
+            "-color": "7",
+            "-fill": "6",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "31",
+            "-name": "tCream",
+            "-color": "7",
+            "-fill": "4",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "32",
+            "-name": "bCream",
+            "-color": "7",
+            "-fill": "5",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "33",
+            "-name": "tFinish",
+            "-color": "6",
+            "-fill": "3",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "34",
+            "-name": "bFinish",
+            "-color": "6",
+            "-fill": "6",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "35",
+            "-name": "tGlue",
+            "-color": "7",
+            "-fill": "4",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "36",
+            "-name": "bGlue",
+            "-color": "7",
+            "-fill": "5",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "37",
+            "-name": "tTest",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "38",
+            "-name": "bTest",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "39",
+            "-name": "tKeepout",
+            "-color": "4",
+            "-fill": "11",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "40",
+            "-name": "bKeepout",
+            "-color": "1",
+            "-fill": "11",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "41",
+            "-name": "tRestrict",
+            "-color": "4",
+            "-fill": "10",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "42",
+            "-name": "bRestrict",
+            "-color": "1",
+            "-fill": "10",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "43",
+            "-name": "vRestrict",
+            "-color": "2",
+            "-fill": "10",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "44",
+            "-name": "Drills",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "45",
+            "-name": "Holes",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "46",
+            "-name": "Milling",
+            "-color": "3",
+            "-fill": "1",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "47",
+            "-name": "Measures",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "no",
+            "-active": "yes"
+          },
+          {
+            "-number": "48",
+            "-name": "Document",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "49",
+            "-name": "Reference",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "51",
+            "-name": "tDocu",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "52",
+            "-name": "bDocu",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "88",
+            "-name": "SimResults",
+            "-color": "9",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "89",
+            "-name": "SimProbes",
+            "-color": "9",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "90",
+            "-name": "Modules",
+            "-color": "5",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "91",
+            "-name": "Nets",
+            "-color": "2",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "92",
+            "-name": "Busses",
+            "-color": "1",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "93",
+            "-name": "Pins",
+            "-color": "2",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "94",
+            "-name": "Symbols",
+            "-color": "4",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "95",
+            "-name": "Names",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "96",
+            "-name": "Values",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "97",
+            "-name": "Info",
+            "-color": "7",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          },
+          {
+            "-number": "98",
+            "-name": "Guide",
+            "-color": "6",
+            "-fill": "1",
+            "-visible": "yes",
+            "-active": "yes"
+          }
+        ]
+      },
+      "library": {
+        "packages": {
+          "package": {
+            "-name": "QFN50P600X600X100-36N",
+            "-urn": "urn:adsk.eagle:footprint:25666711/1",
+            "description": "36-QFN, 0.50 mm pitch, 6.00 X 6.00 X 1.00 mm body
+<p>36-pin QFN package with 0.50 mm pitch with body size 6.00 X 6.00 X 1.00 mm</p>",
+            "circle": {
+              "-x": "-3.554",
+              "-y": "2.639",
+              "-radius": "0.25",
+              "-width": "0",
+              "-layer": "21"
+            },
+            "wire": [
+              {
+                "-x1": "-3.05",
+                "-y1": "2.389",
+                "-x2": "-3.05",
+                "-y2": "3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "-3.05",
+                "-y1": "3.05",
+                "-x2": "-2.389",
+                "-y2": "3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "3.05",
+                "-y1": "2.389",
+                "-x2": "3.05",
+                "-y2": "3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "3.05",
+                "-y1": "3.05",
+                "-x2": "2.389",
+                "-y2": "3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "3.05",
+                "-y1": "-2.389",
+                "-x2": "3.05",
+                "-y2": "-3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "3.05",
+                "-y1": "-3.05",
+                "-x2": "2.389",
+                "-y2": "-3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "-3.05",
+                "-y1": "-2.389",
+                "-x2": "-3.05",
+                "-y2": "-3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "-3.05",
+                "-y1": "-3.05",
+                "-x2": "-2.389",
+                "-y2": "-3.05",
+                "-width": "0.12",
+                "-layer": "21"
+              },
+              {
+                "-x1": "3.05",
+                "-y1": "-3.05",
+                "-x2": "-3.05",
+                "-y2": "-3.05",
+                "-width": "0.12",
+                "-layer": "51"
+              },
+              {
+                "-x1": "-3.05",
+                "-y1": "-3.05",
+                "-x2": "-3.05",
+                "-y2": "3.05",
+                "-width": "0.12",
+                "-layer": "51"
+              },
+              {
+                "-x1": "-3.05",
+                "-y1": "3.05",
+                "-x2": "3.05",
+                "-y2": "3.05",
+                "-width": "0.12",
+                "-layer": "51"
+              },
+              {
+                "-x1": "3.05",
+                "-y1": "3.05",
+                "-x2": "3.05",
+                "-y2": "-3.05",
+                "-width": "0.12",
+                "-layer": "51"
+              }
+            ],
+            "smd": [
+              {
+                "-name": "1",
+                "-x": "-2.9346",
+                "-y": "2",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "2",
+                "-x": "-2.9346",
+                "-y": "1.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "3",
+                "-x": "-2.9346",
+                "-y": "1",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "4",
+                "-x": "-2.9346",
+                "-y": "0.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "5",
+                "-x": "-2.9346",
+                "-y": "0",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "6",
+                "-x": "-2.9346",
+                "-y": "-0.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "7",
+                "-x": "-2.9346",
+                "-y": "-1",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "8",
+                "-x": "-2.9346",
+                "-y": "-1.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "9",
+                "-x": "-2.9346",
+                "-y": "-2",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "10",
+                "-x": "-2",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "11",
+                "-x": "-1.5",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "12",
+                "-x": "-1",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "13",
+                "-x": "-0.5",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "14",
+                "-x": "0",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "15",
+                "-x": "0.5",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "16",
+                "-x": "1",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "17",
+                "-x": "1.5",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "18",
+                "-x": "2",
+                "-y": "-2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "19",
+                "-x": "2.9346",
+                "-y": "-2",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "20",
+                "-x": "2.9346",
+                "-y": "-1.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "21",
+                "-x": "2.9346",
+                "-y": "-1",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "22",
+                "-x": "2.9346",
+                "-y": "-0.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "23",
+                "-x": "2.9346",
+                "-y": "0",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "24",
+                "-x": "2.9346",
+                "-y": "0.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "25",
+                "-x": "2.9346",
+                "-y": "1",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "26",
+                "-x": "2.9346",
+                "-y": "1.5",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "27",
+                "-x": "2.9346",
+                "-y": "2",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1"
+              },
+              {
+                "-name": "28",
+                "-x": "2",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "29",
+                "-x": "1.5",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "30",
+                "-x": "1",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "31",
+                "-x": "0.5",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "32",
+                "-x": "0",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "33",
+                "-x": "-0.5",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "34",
+                "-x": "-1",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "35",
+                "-x": "-1.5",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              },
+              {
+                "-name": "36",
+                "-x": "-2",
+                "-y": "2.9346",
+                "-dx": "0.86",
+                "-dy": "0.27",
+                "-layer": "1",
+                "-rot": "R90"
+              }
+            ],
+            "text": [
+              {
+                "-x": "0",
+                "-y": "3.9996",
+                "-size": "1.27",
+                "-layer": "25",
+                "-align": "bottom-center",
+                "#text": ">NAME"
+              },
+              {
+                "-x": "0",
+                "-y": "-3.9996",
+                "-size": "1.27",
+                "-layer": "27",
+                "-align": "top-center",
+                "#text": ">VALUE"
+              }
+            ]
+          }
+        },
+        "packages3d": {
+          "package3d": {
+            "-name": "QFN50P600X600X100-36N",
+            "-urn": "urn:adsk.eagle:package:25666023/1",
+            "-type": "model",
+            "description": "36-QFN, 0.50 mm pitch, 6.00 X 6.00 X 1.00 mm body
+<p>36-pin QFN package with 0.50 mm pitch with body size 6.00 X 6.00 X 1.00 mm</p>",
+            "packageinstances": {
+              "packageinstance": { "-name": "QFN50P600X600X100-36N" }
+            }
+          }
+        },
+        "symbols": {
+          "symbol": {
+            "-name": "STM32F103C8T6",
+            "description": "Microcontroller 32 bits",
+            "wire": [
+              {
+                "-x1": "-1485.9",
+                "-y1": "698.5",
+                "-x2": "-1485.9",
+                "-y2": "606.8",
+                "-width": "0.254",
+                "-layer": "94"
+              },
+              {
+                "-x1": "-1485.9",
+                "-y1": "606.8",
+                "-x2": "-1390.8",
+                "-y2": "606.8",
+                "-width": "0.254",
+                "-layer": "94"
+              },
+              {
+                "-x1": "-1390.8",
+                "-y1": "606.8",
+                "-x2": "-1390.8",
+                "-y2": "698.5",
+                "-width": "0.254",
+                "-layer": "94"
+              },
+              {
+                "-x1": "-1390.8",
+                "-y1": "698.5",
+                "-x2": "-1485.9",
+                "-y2": "698.5",
+                "-width": "0.254",
+                "-layer": "94"
+              }
+            ],
+            "pin": [
+              {
+                "-name": "OSC_OUT/PD1",
+                "-x": "-1491",
+                "-y": "671.5",
+                "-length": "middle"
+              },
+              {
+                "-name": "VDD_3",
+                "-x": "-1491",
+                "-y": "689.5",
+                "-length": "middle"
+              },
+              {
+                "-name": "OSC_IN/PD0",
+                "-x": "-1491.5",
+                "-y": "681",
+                "-length": "middle"
+              },
+              {
+                "-name": "NRST",
+                "-x": "-1491",
+                "-y": "662",
+                "-length": "middle"
+              },
+              {
+                "-name": "VSSA",
+                "-x": "-1491",
+                "-y": "653.5",
+                "-length": "middle"
+              },
+              {
+                "-name": "VDDA",
+                "-x": "-1491",
+                "-y": "645",
+                "-length": "middle"
+              },
+              {
+                "-name": "PA0-WKUP",
+                "-x": "-1491",
+                "-y": "635.5",
+                "-length": "middle"
+              },
+              {
+                "-name": "PA1",
+                "-x": "-1491",
+                "-y": "626",
+                "-length": "middle"
+              },
+              {
+                "-name": "PA2",
+                "-x": "-1491",
+                "-y": "617.5",
+                "-length": "middle"
+              },
+              {
+                "-name": "VSS_3",
+                "-x": "-1476",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "BOOT0",
+                "-x": "-1466.5",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PB7",
+                "-x": "-1458",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PB6",
+                "-x": "-1449.5",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PB5",
+                "-x": "-1440",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PB4",
+                "-x": "-1431.5",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PB3",
+                "-x": "-1422",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PA15",
+                "-x": "-1412.5",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "PA14",
+                "-x": "-1404",
+                "-y": "704.5",
+                "-length": "middle",
+                "-rot": "R270"
+              },
+              {
+                "-name": "VDD_2",
+                "-x": "-1385.5",
+                "-y": "688.5",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "VSS_2",
+                "-x": "-1385.5",
+                "-y": "679",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "PA13",
+                "-x": "-1385.5",
+                "-y": "670.5",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "PA12",
+                "-x": "-1385.5",
+                "-y": "662",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "PA11",
+                "-x": "-1385.5",
+                "-y": "652.5",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "PA10",
+                "-x": "-1385.5",
+                "-y": "644",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "PA9",
+                "-x": "-1385.5",
+                "-y": "634.5",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "PA8",
+                "-x": "-1385.5",
+                "-y": "625",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "VDD_1",
+                "-x": "-1385.5",
+                "-y": "616.5",
+                "-length": "middle",
+                "-rot": "R180"
+              },
+              {
+                "-name": "VSS_1",
+                "-x": "-1402",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PB2",
+                "-x": "-1411.5",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PB1",
+                "-x": "-1420",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PB0",
+                "-x": "-1428.5",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PA7",
+                "-x": "-1438",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PA6",
+                "-x": "-1446.5",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PA5",
+                "-x": "-1456",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PA4",
+                "-x": "-1465.5",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              },
+              {
+                "-name": "PA3",
+                "-x": "-1474",
+                "-y": "601",
+                "-length": "middle",
+                "-rot": "R90"
+              }
+            ]
+          }
+        },
+        "devicesets": {
+          "deviceset": {
+            "-name": "STM32F103C8T6",
+            "-uservalue": "yes",
+            "gates": {
+              "gate": {
+                "-name": "G$1",
+                "-symbol": "STM32F103C8T6",
+                "-x": "-12.7",
+                "-y": "-2.54"
+              }
+            },
+            "devices": {
+              "device": {
+                "-package": "QFN50P600X600X100-36N",
+                "connects": {
+                  "connect": [
+                    {
+                      "-gate": "G$1",
+                      "-pin": "BOOT0",
+                      "-pad": "35"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "NRST",
+                      "-pad": "4"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "OSC_IN/PD0",
+                      "-pad": "2"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "OSC_OUT/PD1",
+                      "-pad": "3"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA0-WKUP",
+                      "-pad": "7"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA1",
+                      "-pad": "8"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA10",
+                      "-pad": "22"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA11",
+                      "-pad": "23"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA12",
+                      "-pad": "24"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA13",
+                      "-pad": "25"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA14",
+                      "-pad": "28"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA15",
+                      "-pad": "29"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA2",
+                      "-pad": "9"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA3",
+                      "-pad": "10"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA4",
+                      "-pad": "11"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA5",
+                      "-pad": "12"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA6",
+                      "-pad": "13"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA7",
+                      "-pad": "14"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA8",
+                      "-pad": "20"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PA9",
+                      "-pad": "21"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB0",
+                      "-pad": "15"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB1",
+                      "-pad": "16"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB2",
+                      "-pad": "17"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB3",
+                      "-pad": "30"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB4",
+                      "-pad": "31"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB5",
+                      "-pad": "32"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB6",
+                      "-pad": "33"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "PB7",
+                      "-pad": "34"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VDDA",
+                      "-pad": "6"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VDD_1",
+                      "-pad": "19"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VDD_2",
+                      "-pad": "27"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VDD_3",
+                      "-pad": "1"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VSSA",
+                      "-pad": "5"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VSS_1",
+                      "-pad": "18"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VSS_2",
+                      "-pad": "26"
+                    },
+                    {
+                      "-gate": "G$1",
+                      "-pin": "VSS_3",
+                      "-pad": "36"
+                    }
+                  ]
+                },
+                "package3dinstances": {
+                  "package3dinstance": { "-package3d_urn": "urn:adsk.eagle:package:25666023/1" }
+                },
+                "technologies": {
+                  "technology": {
+                    
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "compatibility": {
+      "note": [
+        {
+          "-version": "8.3",
+          "-severity": "warning",
+          "#text": "
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+"
+        },
+        {
+          "-version": "8.3",
+          "-severity": "warning",
+          "#text": "
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+"
+        }
+      ]
+    }
+  }
+}
